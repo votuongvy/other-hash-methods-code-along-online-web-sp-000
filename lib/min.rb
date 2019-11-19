@@ -10,5 +10,12 @@ require 'pry'
 
 def get_the_min(groceries)
   #code your solution here!
-    get all the values in a flat array
+  groceries = {
+    dairy: ["milk", "yogurt", "cheese"],
+    vegetable: ["carrots", "broccoli", "cucumbers"],
+    meat: ["chicken", "steak", "salmon"],
+    grains: ["rice", "pasta"]
+  }
+  
+  groceries.min
 end
